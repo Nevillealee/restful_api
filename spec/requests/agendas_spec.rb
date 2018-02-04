@@ -47,7 +47,7 @@ RSpec.describe 'Agendas API', type: :request do
       end
 
       it 'returns a not found message' do
-        expect(response.body).to match(/Could not find Agenda/)
+        expect(response.body).to match(/Couldn't find Agenda/)
       end
     end
   end
