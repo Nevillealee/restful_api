@@ -1,6 +1,6 @@
 #require(string) loads file once
 #versus load 'filename'
-#which loads each method is executed
+#which loads each time method is executed
 require 'rails_helper'
 
 RSpec.describe 'Agendas API', type: :request do
