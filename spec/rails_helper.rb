@@ -54,7 +54,9 @@ RSpec.configure do |config|
       example.run
     end
   end
-  config.include RequestSpecHelper, type: :request
+  # config.include RequestSpecHelper, type: :request
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
